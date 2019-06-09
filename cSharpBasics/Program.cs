@@ -94,10 +94,15 @@ namespace cSharpBasics
             friends[2] = "Gilbert";
             */
 
-            //Methods
-
+            //Methods - functions are called methods in c#
+            SayHi("jesse");
 
             Console.ReadLine();
         }
+        static void SayHi(string name)
+        {
+            Console.WriteLine("Hello " + name);
+        }
+
     }
 }
