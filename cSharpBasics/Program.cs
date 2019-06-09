@@ -204,9 +204,17 @@ namespace cSharpBasics
             */
 
             //static methods and classes
-            Console.WriteLine(Math.Sqrt(144));// example of static method of the class Math
+            //Console.WriteLine(Math.Sqrt(144));// example of static method of the class Math
 
-            UsefulTools.SayHi("Mike");
+            //UsefulTools.SayHi("Mike");
+
+            //inheritance
+
+            Chef chef = new Chef();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeSpecialDish();
 
 
 
