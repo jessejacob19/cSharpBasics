@@ -96,13 +96,17 @@ namespace cSharpBasics
 
             //Methods - functions are called methods in c#
             SayHi("jesse");
-
+            Console.WriteLine(cube(5));
             Console.ReadLine();
         }
         static void SayHi(string name)
         {
             Console.WriteLine("Hello " + name);
         }
-
+        static int cube(int num)
+        {
+            int result = num * num * num;
+            return result;
+        }
     }
 }
