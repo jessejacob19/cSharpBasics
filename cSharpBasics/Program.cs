@@ -194,10 +194,23 @@ namespace cSharpBasics
             */
             //static class attributes ****************
 
+
+            /*
             Song holiday = new Song("Holiday", "Green Day", 200);
             Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
 
             Console.WriteLine(Song.songCount);
+            Console.WriteLine(kashmir.getSongCount());
+            */
+
+            //static methods and classes
+            Console.WriteLine(Math.Sqrt(144));// example of static method of the class Math
+
+            UsefulTools.SayHi("Mike");
+
+
+
+
 
             Console.ReadLine();
         }

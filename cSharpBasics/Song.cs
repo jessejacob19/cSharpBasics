@@ -18,5 +18,9 @@ namespace cSharpBasics
             duration = aDuration;
             songCount++;
         }
+        public int getSongCount()
+        {
+            return songCount;
+        }
     }
 }
