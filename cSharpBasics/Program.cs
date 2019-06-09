@@ -67,6 +67,7 @@ namespace cSharpBasics
             Console.WriteLine(num1 + num2);*/
 
             //madlibs game
+            /*
             string color, pluralNoun, celebrity;
 
             Console.Write("Enter a color: ");
@@ -80,6 +81,21 @@ namespace cSharpBasics
             Console.WriteLine("Roses Are " + color);
             Console.WriteLine(pluralNoun + " Are Blue");
             Console.WriteLine("I Love " + celebrity);
+            */
+
+            //arrays
+            /*
+            int[] luckyNumbers = {4, 8, 15, 16, 23, 42 };
+            Console.WriteLine(luckyNumbers[0]);
+
+            string[] friends = new string[3];//have to tell how many elements
+            friends[0] = "Jim";
+            friends[1] = "Kelly";
+            friends[2] = "Gilbert";
+            */
+
+            //Methods
+
 
             Console.ReadLine();
         }
