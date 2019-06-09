@@ -162,7 +162,25 @@ namespace cSharpBasics
 
             //exception handling
 
-            exceptions();
+            //exceptions();
+
+            //classes
+
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
+
+            Console.WriteLine(book1.pages);
+
+            Book book2 = new Book();
+            book2.title = "Lord Of the Rings";
+            book2.author = "Tolkein";
+            book2.pages = 700;
+
+            Console.WriteLine(book1.pages);
+
+
             Console.ReadLine();
         }
 
