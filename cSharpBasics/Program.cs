@@ -176,13 +176,20 @@ namespace cSharpBasics
             Book book2 = new Book("Lord Of the Rings", "Tolkein", 700);
             */
             //object methods
-
+            /*
             Student student1 = new Student("Jim", "Business", 2.8);
             Student student2 = new Student("Pam", "Art", 3.6);
 
             Console.WriteLine(student1.HasHonors());
             Console.WriteLine(student2.HasHonors());
+            */
 
+            //getters and setters
+
+            Movie avengers = new Movie("The Avengers", "Josh Whedon", "Dawg");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+            // G, PG, PG-13, R, NR
+            Console.WriteLine(avengers.Rating);
             Console.ReadLine();
         }
 
