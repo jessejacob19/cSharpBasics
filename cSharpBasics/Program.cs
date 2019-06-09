@@ -116,13 +116,30 @@ namespace cSharpBasics
             //guessing game
             string secretWord = "giraffe";
             string guess = "";
-
-            while(guess != secretWord)
+            int guessCount = 0;
+            int guessLimit = 5;
+            bool outOfGuesses = false;
+            while(guess != secretWord && !outOfGuesses)
             {
-                Console.Write("Enter guess: ");
-                guess = Console.ReadLine();
+                if(guessCount < guessLimit)
+                {
+                    Console.Write("Enter guess: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                } else
+                {
+                    outOfGuesses = true;
+                }
+                
             }
-            Console.Write("You Win!");
+            if(!outOfGuesses)
+            {
+                Console.Write("You Win!");
+            } else
+            {
+                Console.WriteLine("You Lose!");
+            }
+            
             Console.ReadLine();
         }
         static void SayHi(string name)
