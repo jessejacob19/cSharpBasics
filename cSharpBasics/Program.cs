@@ -10,7 +10,7 @@ namespace cSharpBasics
             // core data types
             string str = "this is a string";
             char c = 'c'; //only use single quotes for char double quotes for string
-            int num = 4;//integer is whole number
+            int n = 4;//integer is whole number
             // float double decimal other examples of numbers least specific to most specific
             double d = 1.3345; // has to have the point
             bool isCorrect = true; // basic boolean
@@ -36,10 +36,21 @@ namespace cSharpBasics
 
             //when int / float you get a float
             Console.WriteLine(5/2.0);//
+            int num = 6;
+            num++
+            Console.WriteLine(num);//
+
+            //Math methods
+
+            Console.WriteLine(Math.Abs(-40));//Pow,Sqrt,Max,Min,Round
 
 
-            //pointers
+           
             Console.WriteLine("Hello World!" + "this is how you add strings together");// how to print on the console
+
+            //******* USER input
+
+
         }
     }
 }
