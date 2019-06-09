@@ -164,8 +164,8 @@ namespace cSharpBasics
 
             //exceptions();
 
-            //classes
-
+            //classes amd constructors
+            /*
             Book book1 = new Book("w", "w", 2);
             book1.title = "Harry Potter";
             book1.author = "JK Rowling";
@@ -174,8 +174,14 @@ namespace cSharpBasics
             Console.WriteLine(book1.pages);
 
             Book book2 = new Book("Lord Of the Rings", "Tolkein", 700);
+            */
+            //object methods
 
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
 
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
 
             Console.ReadLine();
         }

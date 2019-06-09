@@ -6,6 +6,7 @@ namespace cSharpBasics
         public string title;
         public string author;
         public int pages;
+        //private - only code can access that
 
         public Book(string aTitle, string aAuthor, int aPages )
         {
@@ -13,6 +14,7 @@ namespace cSharpBasics
             author = aAuthor;
             pages = aPages;
         }
+
     }
 }
 
