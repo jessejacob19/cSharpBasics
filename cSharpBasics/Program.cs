@@ -6,6 +6,7 @@ namespace cSharpBasics
     {
         static void Main(string[] args)
         {
+            /*
             //tutoral by https://www.youtube.com/watch?v=GhQdlIFylQ8&t=264s
             // core data types
             string str = "this is a string";
@@ -37,7 +38,7 @@ namespace cSharpBasics
             //when int / float you get a float
             Console.WriteLine(5/2.0);//
             int num = 6;
-            num++
+            num++;//increments num--
             Console.WriteLine(num);//
 
             //Math methods
@@ -47,10 +48,18 @@ namespace cSharpBasics
 
            
             Console.WriteLine("Hello World!" + "this is how you add strings together");// how to print on the console
-
+            */
             //******* USER input
 
+            Console.Write("Enter Name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " you are " + age);//
 
+
+
+            Console.ReadLine();
         }
     }
 }
