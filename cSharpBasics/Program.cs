@@ -105,12 +105,24 @@ namespace cSharpBasics
             //Console.WriteLine(GetDay(5));
 
             //While loops
-            int index = 1;
+            /*int index = 1;
             while(index <= 5)
             {
                 Console.WriteLine(index);
                 index++;
             }
+            */
+
+            //guessing game
+            string secretWord = "giraffe";
+            string guess = "";
+
+            while(guess != secretWord)
+            {
+                Console.Write("Enter guess: ");
+                guess = Console.ReadLine();
+            }
+            Console.Write("You Win!");
             Console.ReadLine();
         }
         static void SayHi(string name)
