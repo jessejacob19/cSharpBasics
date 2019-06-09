@@ -149,8 +149,16 @@ namespace cSharpBasics
             //Console.WriteLine(GetPow(3, 4));
 
             //2d arrays
-            twoDArray();
+            //twoDArray();
 
+            // comments
+            // single line
+
+            /*
+             
+             multi line
+             
+             */
             Console.ReadLine();
         }
 
