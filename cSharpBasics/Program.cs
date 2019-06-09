@@ -102,7 +102,15 @@ namespace cSharpBasics
             //statements();
 
             //switch statements
-            Console.WriteLine(GetDay(5));
+            //Console.WriteLine(GetDay(5));
+
+            //While loops
+            int index = 1;
+            while(index <= 5)
+            {
+                Console.WriteLine(index);
+                index++;
+            }
             Console.ReadLine();
         }
         static void SayHi(string name)
