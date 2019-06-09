@@ -50,14 +50,21 @@ namespace cSharpBasics
             Console.WriteLine("Hello World!" + "this is how you add strings together");// how to print on the console
             */
             //******* USER input
-
+            /*
             Console.Write("Enter Name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
             string age = Console.ReadLine();
             Console.WriteLine("Hello " + name + " you are " + age);//
+            */
 
-
+            //int num = Convert.ToInt32("45");
+            Console.WriteLine("this is a calculator that adds two numbers together");
+            Console.Write("Write first number!!");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Write second number!!");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(num1 + num2);
 
             Console.ReadLine();
         }
