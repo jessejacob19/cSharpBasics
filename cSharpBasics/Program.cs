@@ -59,12 +59,27 @@ namespace cSharpBasics
             */
 
             //int num = Convert.ToInt32("45");
-            Console.WriteLine("this is a calculator that adds two numbers together");
+            /*Console.WriteLine("this is a calculator that adds two numbers together");
             Console.Write("Write first number!!");
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Write second number!!");
             int num2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(num1 + num2);
+            Console.WriteLine(num1 + num2);*/
+
+            //madlibs game
+            string color, pluralNoun, celebrity;
+
+            Console.Write("Enter a color: ");
+            color = Console.ReadLine();
+            Console.Write("Enter a plural noun: ");
+            pluralNoun = Console.ReadLine();
+            Console.Write("Enter a celebrity: ");
+            celebrity = Console.ReadLine();
+
+
+            Console.WriteLine("Roses Are " + color);
+            Console.WriteLine(pluralNoun + " Are Blue");
+            Console.WriteLine("I Love " + celebrity);
 
             Console.ReadLine();
         }
