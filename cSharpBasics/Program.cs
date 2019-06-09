@@ -95,8 +95,11 @@ namespace cSharpBasics
             */
 
             //Methods - functions are called methods in c#
-            SayHi("jesse");
-            Console.WriteLine(cube(5));
+            //SayHi("jesse");
+            //Console.WriteLine(cube(5));
+
+            //if statements
+            statements();
             Console.ReadLine();
         }
         static void SayHi(string name)
@@ -107,6 +110,22 @@ namespace cSharpBasics
         {
             int result = num * num * num;
             return result;
+        }
+        static void statements()
+        {
+            bool isMale = false;
+            bool isFemale = false;
+            //use && or ||
+            if (isMale)
+            {
+                Console.WriteLine("you are a male");
+            } else if (isFemale)
+            {
+                Console.WriteLine("you are a female");
+            } else
+            {
+                Console.WriteLine("You are Neither");
+            }
         }
     }
 }
