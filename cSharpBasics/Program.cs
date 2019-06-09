@@ -143,11 +143,40 @@ namespace cSharpBasics
             */
 
             //for loops
-            loops();
-            
+            //loops();
+
+            //building an exponent method
+            //Console.WriteLine(GetPow(3, 4));
+
+            //2d arrays
+            twoDArray();
+
             Console.ReadLine();
         }
 
+
+        static void twoDArray ()
+        {
+            //everything that you would do in a normal array
+            int[,] numberGrid = {
+                {1, 2 },
+                {3, 4 },
+                {5, 6 }
+            };
+
+            Console.WriteLine(numberGrid[0, 1]);
+        }
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+
+            for(int i = 0; i < powNum; i++)
+            {
+                result = result * baseNum;
+            }
+
+            return result;
+        }
         static void loops()
         {
             for (int i = 1; i <= 5; i++)
