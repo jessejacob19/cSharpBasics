@@ -114,6 +114,7 @@ namespace cSharpBasics
             */
 
             //guessing game
+            /*
             string secretWord = "giraffe";
             string guess = "";
             int guessCount = 0;
@@ -139,8 +140,20 @@ namespace cSharpBasics
             {
                 Console.WriteLine("You Lose!");
             }
+            */
+
+            //for loops
+            loops();
             
             Console.ReadLine();
+        }
+
+        static void loops()
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
         static void SayHi(string name)
         {
